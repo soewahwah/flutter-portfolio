@@ -2,15 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flutter Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flutter Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <h1>Hello Flutter Developer 👋</h1>
+    <header class="hero">
+        <div class="container">
+            <h1>Hi, I'm Flutter Developer 👋</h1>
+            <p class="subtitle">Mid-Level Flutter Developer | Clean Architecture | Firebase | CI/CD</p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>About Me</h2>
+        <p>
+            Flutter Developer with experience in building scalable mobile applications using
+            Clean Architecture, Firebase, REST APIs, and modern state management solutions.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="card">Flutter / Dart</div>
+            <div class="card">Firebase</div>
+            <div class="card">Riverpod / Bloc</div>
+            <div class="card">REST API</div>
+            <div class="card">Clean Architecture</div>
+            <div class="card">CI/CD</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>📦 E-Commerce App</h3>
+            <p>Full-featured shopping app with Firebase backend and cart system.</p>
+        </div>
+
+        <div class="project">
+            <h3>💬 Chat App</h3>
+            <p>Real-time messaging app using Firebase + push notifications.</p>
+        </div>
+
+        <div class="project">
+            <h3>📅 Task Manager</h3>
+            <p>Offline-first productivity app with local storage and state management.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Architecture</h2>
+        <p>
+            Built using Clean Architecture, feature-based modular structure,
+            repository pattern, and dependency injection for scalability.
+        </p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+        <p>GitHub: github.com/yourname</p>
+        <p>LinkedIn: linkedin.com/in/yourname</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Flutter Developer Portfolio</p>
+    </footer>
 
 </body>
 
