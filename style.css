@@ -57,10 +57,10 @@ html {
 }
 
 /* When visible */
-/* .section.show {
+.section.show {
     opacity: 1;
     transform: translateY(0);
-} */
+}
 
 h2 {
     margin-bottom: 20px;
