@@ -43,30 +43,15 @@ body {
 }
 
 /* SECTIONS */
-/* .section {
-    padding: 60px 20px;
-    max-width: 900px;
-    margin: auto;
-} */
-
-
-
 .section {
     padding: 60px 20px;
     max-width: 900px;
     margin: auto;
-
-    /* animation */
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease;
 }
 
-/* FIX THIS - UNCOMMENT */
-.section.show {
-    opacity: 1;
-    transform: translateY(0);
-}
+
+
+
 
 h2 {
     margin-bottom: 20px;
